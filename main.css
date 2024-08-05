@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    background-color: #232323;
+    color: white;
+}
+
+.active-button {
+    background-color: #0D99FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 140%;
+    padding: 16px 60px;
+    cursor: pointer;
+}
+
+.active-button:hover {
+    background-color: #44b1ff;
+}
+
+h1 {
+    font-size: 70px;
+    padding: 5px 5px;
+}
+
+p {
+    color: #AFAFAF;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin: 30px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logo:hover {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+#navBar {
+    top: 0;
+}
+
+#navBar ul li button {
+    font-size: 120%;
+    padding: 7px 35px;
+    margin-top: -5px;
+    margin-right: 15px; 
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+    float: right;
+    margin-top: 55px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+#homePage {
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+#aboutMePage {
+    height: 700px;
+    width: 100%;
+}
+
+#aboutMePage img {
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin: 40px 40px;
+    margin-bottom: 80px;
+}
+
+#aboutMePage #textArea {
+    float: left;
+    height: 300px;
+    width: 40%;
+    margin: 40px 40px;
+}
+
+#projectsPage {
+    height: 700px;
+    width: 100%;
+}
+
+#projectsPage img {
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin: 40px 40px;
+}
+
+#projectsPage #textArea {
+    float: right;
+    height: 300px;
+    width: 40%;
+    margin: 40px 40px;
+}
+
+#projectsPage #textArea p {
+    text-align: right;
+}
+
+#projectsPage #textArea .active-button {
+    margin-top: 20px;
+    float: right;
+}
+
+#contactPage {
+    height: 450px;
+    width: 100%;
+}
+
+#contactPage #textArea {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#contactPage #textArea .active-button {
+    margin-top: 40px;
+}
+
+#footer {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 500px;
+}
+
+#footer h3 {
+    bottom: 5px;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    color: #4e4e4e;
+}
+
