@@ -1,2 +1,2 @@
-# portfolio
-My portfolio site (Work in progress)
+# 💻 Portfolio
+My personal portfolio (Work in progress)
